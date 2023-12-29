@@ -5,5 +5,16 @@ import { Component } from '@angular/core';
   templateUrl: './new-post.component.html'
 })
 export class NewPostComponent {
-  
+	tweetMessage:string = "";
+  tweetMaxLength:number = 240;
+	tweetRemain:number = this.tweetMaxLength;
+
+	tweetChange(){
+		this.tweetRemain = 240 - this.tweetMessage.length;
+	}
+
+	sendTweet(){
+		alert(this.tweetMessage)
+		this.tweetMessage = "";
+	}
 }

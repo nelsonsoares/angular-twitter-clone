@@ -12,9 +12,9 @@
      <div class="flex-1">
 
       <!-- Textarea -->
-      <textarea maxlength="240" rows="3" placeholder="What's happening..." class="mb-2 bg-gray-200 focus:outline-none focus:ring focus:ring-gray-200 focus:bg-gray-100 border border-transparent rounded-lg py-2 px-4 
-      block w-full appearance-none font-light resize-none placeholder-gray-700 whitespace-normal">
-      </textarea>
+      <textarea [(ngModel)]="tweetMessage" (input)="tweetChange()"
+			[maxlength]="tweetMaxLength" rows="3" placeholder="What's happening..." class="mb-2 bg-gray-200 focus:outline-none focus:ring focus:ring-gray-200 focus:bg-gray-100 border border-transparent rounded-lg py-2 px-4
+      block w-full appearance-none font-light resize-none placeholder-gray-700 whitespace-normal"></textarea>
 
       <!-- Divider Line -->
       <div class="w-auto border rounded-lg"></div>
@@ -24,12 +24,13 @@
 
         <!-- Count Chars -->
         <div class="mr-5 font-thin text-gray-500">
-          <p>240</p>
+          <p>{{ tweetRemain }}</p>
         </div>
 
         <!-- Button -->
         <div class="mt-5">
-          <button type="button" class="w-32 focus:outline-none border border-transparent py-2 px-5 rounded-lg shadow text-center text-white font-semibold bg-blue-500 hover:bg-blue-600">Tweet</button>
+          <button (click)="sendTweet()"
+					type="button" class="w-32 focus:outline-none border border-transparent py-2 px-5 rounded-lg shadow text-center text-white font-semibold bg-blue-500 hover:bg-blue-600">Tweet</button>
         </div>
       </div>
 
