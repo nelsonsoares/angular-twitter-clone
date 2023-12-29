@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './new-post.component.html'
 })
 export class NewPostComponent {
-
+  
 }

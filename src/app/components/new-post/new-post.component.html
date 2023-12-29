@@ -1,18 +1,39 @@
 <div class="w-[650px] bg-white rounded-lg shadow p-6 mb-8">
   <div class="flex justify-center w-full">
+
     <!-- Avatar Circle -->
     <div class="flex-shrink-0 mr-5">
-      <div class="cursor-pointer w-12 h-12 bg-gray-300 flex justify-center items-center rounded-full">
+      <div class="cursor-pointer font-bold w-12 h-12 bg-gray-300 flex items-center justify-center rounded-full">
         N
       </div>
-      <!-- Form -->
-      <div class="flex-1">
-        <!-- Textarea -->
-        <textarea 
-        class="mb-2 bg-gray-200 focus:outline-none focus:bg-gray-100 rounded-lg py-2 px-4 
-        resize-none block w-full appearance-none font-light placeholder-gray-700" rows="3" placeholder="What's happening...">
-        </textarea>
-      </div>
     </div>
+
+     <!-- Form -->
+     <div class="flex-1">
+
+      <!-- Textarea -->
+      <textarea maxlength="240" rows="3" placeholder="What's happening..." class="mb-2 bg-gray-200 focus:outline-none focus:ring focus:ring-gray-200 focus:bg-gray-100 border border-transparent rounded-lg py-2 px-4 
+      block w-full appearance-none font-light resize-none placeholder-gray-700 whitespace-normal">
+      </textarea>
+
+      <!-- Divider Line -->
+      <div class="w-auto border rounded-lg"></div>
+
+      <!-- Interactive -->
+      <div class="flex justify-end items-baseline">
+
+        <!-- Count Chars -->
+        <div class="mr-5 font-thin text-gray-500">
+          <p>240</p>
+        </div>
+
+        <!-- Button -->
+        <div class="mt-5">
+          <button type="button" class="w-32 focus:outline-none border border-transparent py-2 px-5 rounded-lg shadow text-center text-white font-semibold bg-blue-500 hover:bg-blue-600">Tweet</button>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 </div>
