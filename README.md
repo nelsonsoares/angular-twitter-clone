@@ -2,9 +2,9 @@
 
 <p align="center">
 	Clone pessoal do Twitter feito com Angular e TypeScript em um Aulão promovido pela 
-	<a href="https://www.dio.me/">DIO</a> e ministrado pelo 
-	<a href="https://github.com/felipeAguiarCode">Felipe Aguiar</a> através do seu canal no 
-	<a href="https://www.youtube.com/@diomakethechange">YouTube</a><br/>
+	<a href="https://www.dio.me/" target="_blank">DIO</a> e ministrado pelo 
+	<a href="https://github.com/felipeAguiarCode" target="_blank">Felipe Aguiar</a> através do seu canal no 
+	<a href="https://www.youtube.com/@diomakethechange" target="_blank">YouTube</a><br/>
 </p>
 
 <br>
