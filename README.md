@@ -1,7 +1,10 @@
 <h1 align="center">TwAula</h1>
 
 <p align="center">
-	Clone pessoal do Twitter feito com Angular e TypeScript em um Aulão promovido pela <a src="https://www.dio.me/">DIO</a> e ministrado pelo <a src="https://github.com/felipeAguiarCode">Felipe Aguiar</a> através do seu canal no <a src="https://www.youtube.com/@diomakethechange">YouTube</a><br/>
+	Clone pessoal do Twitter feito com Angular e TypeScript em um Aulão promovido pela 
+	<a href="https://www.dio.me/">DIO</a> e ministrado pelo 
+	<a href="https://github.com/felipeAguiarCode">Felipe Aguiar</a> através do seu canal no 
+	<a href="https://www.youtube.com/@diomakethechange">YouTube</a><br/>
 </p>
 
 <br>
