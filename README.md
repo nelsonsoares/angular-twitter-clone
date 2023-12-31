@@ -33,8 +33,4 @@ O projeto é um estudo inicial do Framework angular, sendo abordado
 - Trabalhar com services e conectar components
 - Diretivas Angulas para gerar páginas dinâmicas
 
-## 💻 Projeto
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
-
-
 Feito com ♥ by Nelson Soares
