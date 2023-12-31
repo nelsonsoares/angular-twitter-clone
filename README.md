@@ -1,23 +1,40 @@
-# TwAula
+<h1 align="center">TwAula</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+<p align="center">
+	Clone pessoal do Twitter feito com Angular e TypeScript em um Aulão promovido pela <a src="https://www.dio.me/">DIO</a> e ministrado pelo <a src="https://github.com/felipeAguiarCode">Felipe Aguiar</a> através do seu canal no <a src="https://www.youtube.com/@diomakethechange">YouTube</a><br/>
+</p>
 
-## Code scaffolding
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="center">
+  <img alt="projeto DevLinks" src="./src/assets/screenshot.jpg" width="100%">
+</p>
 
-## Build
+## 🚀 Tecnologias
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Running unit tests
+- HTML e CSS
+- TypeScript
+- Git e Github
+- Angular
+- Tailwind CSS
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🗺️ Roadmap
 
-## Running end-to-end tests
+O projeto é um estudo inicial do Framework angular, sendo abordado
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Componentização do front-end
+- Como funciona os componentes
+- Estilização de componentes com tailwind css
+- Boas práticas de estrutura de projeto Angular
+- Estrutura e pastas
+- Criar componentes dinâmicos que recebem parâmetros
+- Trabalhar com services e conectar components
+- Diretivas Angulas para gerar páginas dinâmicas
 
-## Further help
+## 💻 Projeto
+- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Feito com ♥ by Nelson Soares
